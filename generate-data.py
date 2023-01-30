@@ -83,9 +83,9 @@ for location in glbLocations:
             # loop through each glb file
             for glbFile in locationOfGlb[2]:
                 item = {
-                    "glb-file": glbFile,
+                    "glbFile": glbFile,
                     "directory": locationOfGlb[0],
-                    "friendly-name": caculateFriendlyName(glbFile)
+                    "friendlyName": caculateFriendlyName(glbFile)
                 }
 
                 dataToExport.append(item)
